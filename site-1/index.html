@@ -12,7 +12,7 @@
 </head>
 <body>
   <div id="wrapper">
-    <div class="header">
+    <header class="header">
       <div class="top-panel">
         <a href="" class="logo">
           <img src="images/logo.png" alt="logo">
@@ -36,25 +36,25 @@
         </p>
         <a class="btn-go" href="#">Перейти</a>
       </div>
-    </div>
-    <div class="page-content">
+    </header>
+    <main class="page-content">
       <div class="our-projects page-content-block">
-        <h2>Наши проекты</h2>
-        <div class="nav">
-          <span class="prev"><</span>
-          <span class="next">></span>
+        <h2 class="title-block">Наши проекты</h2>
+        <div class="arrows">
+          <span class="prev"></span>
+          <span class="next"></span>
         </div>
         <div class="block-content">
           <div class="projects">
             <div class="project">
-              <img src="" alt="">
+              <img src="images/project-image-1.jpg" alt="">
               <div class="project-info">
                 <h3 class="project-title">ССК “ОЛИМП”</h3>
                 <p class="project-text">Световое оформление форума “Шубы-2019”</p>
               </div>
             </div>
             <div class="project">
-              <img src="" alt="">
+              <img src="images/project-image-2.jpg" alt="">
               <div class="project-info">
                 <h3 class="project-title">ССК “ОЛИМП”</h3>
                 <p class="project-text">Световое оформление форума “Шубы-2019”</p>
@@ -63,7 +63,121 @@
           </div>
         </div>
       </div>
-    </div>
+      <div class="catalog page-content-block">
+        <h2 class="title-block">Каталог продукции</h2>
+        <nav class="nav">
+          <li><a href="#" class="active">Robe</a></li>
+          <li><a href="#">Compulite</a></li>
+        </nav>
+        <div class="block-content">
+          <div class="categories">
+            <a href="#" class="categorie">
+              <img src="images/catalog-image-1.jpg" alt="">
+              <h3 class="categorie-name">Статичные светодиодные приборы</h2>
+            </a>
+            <a href="#" class="categorie">
+              <img src="images/catalog-image-2.jpg" alt="">
+              <h3 class="categorie-name">Контроллеры</h2>
+            </a>
+            <a href="#" class="categorie">
+              <img src="images/catalog-image-3.jpg" alt="">
+              <h3 class="categorie-name">Аксессуары</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="rent page-content-block">
+        <h2 class="title-block">Аренда оборудования</h2>
+        <div class="block-content">
+          <p class="info-block">
+            Мы занимаемся прокатом светового и сценического оборудования ведущих мировых производителей, 
+            таких как Robe, SGM, StudioDue, ChainMaster, Milos, Universal Effects, ArtLighting, MobilTech, 
+            Lampo, Martin, Spotlight, Compulite, Eurolite и др.
+          </p>
+          <div class="equipment-block">
+            <h3>Новое оборудование, предоставляемое в аренду:</h3>
+            <div class="arrows">
+              <span class="prev"></span>
+              <span class="next"></span>
+            </div>
+            <div class="equipment">
+              <img src="images/equipment-image.png" alt="">
+              <div class="characteristic">
+                <h4>Robe Robin ParFect 100</h4>
+                <ul>
+                  <li>Источник света 12 светодиодов RGBW по 15 Вт каждый</li>
+                  <li>Угол раскрытия 7°</li>
+                  <li>В комплекте рассеивающая линза 40°</li>
+                  <li>Потребляемая мощность 200 Вт</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news page-content-block">
+        <h2 class="title-block">Новости</h2>
+        <a href="#" class="btn">Все Новости</a>
+        <div class="block-content">
+          <div class="main-news">
+            <img src="images/news-image-1.jpg" alt="">
+            <div class="news-info">
+              <h3>Семинар Milos</h3>
+              <p>
+                Наши сотрудники прошли последний семинар от компании Milos. <br>
+                Они получили новый объем знаний, который позволит нашей компании 
+                заниматься оборудованием не только мероприятий, но производственных помещений.
+              </p>
+              <a href="#">Читать полностью...</a>
+              <span class="date">27.01.2019</span>
+            </div>
+          </div>
+          <div class="side-news">
+            <h3>Выставка Prolight+Sound NAMM Russia 2016</h3>
+            <p>
+              30 контрактов, тысячи восторженных посетителей...
+            </p>
+            <img src="images/news-image-2.jpg" alt="">
+            <span class="date">27.01.2019</span>
+          </div>
+          <div class="side-news">
+            <h3>Семинар <br> Robe</h3>
+            <p>
+              30 января 2017 года наши сотрудники побывали в Берлине..
+            </p>
+            <img src="images/news-image-3.jpg" alt="">
+            <span class="date">27.01.2019</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="content">
+        <div class="info-company">
+          <span class="phone">(812) 710-80-25</span>
+          <span class="adress">191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1</span>
+          <span class="email">mail@translight.ru</span>
+        </div>
+        <div class="main-links">
+          <div class="column">
+            <a href="#">О компании</a>
+            <a href="#">Новости</a>
+          </div>
+          <div class="column">
+            <a href="#">Каталог</a>
+            <a href="#">Аренда</a>
+          </div>
+          <div class="column">
+            <a href="#">Наши проекты</a>
+            <a href="#">Сервисное обслуживание</a>
+          </div>
+        </div>
+        <div class="copy">
+          <p>© 2019 ЗАО «Транслайт». Все права защищены.</p>
+          <p>Разработка и дизайн - D-e-n.ru</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
